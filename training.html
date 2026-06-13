@@ -1,0 +1,32 @@
+---
+layout: default
+class: about-page
+title: Training
+---
+
+{% capture caption %}
+    Training and collaboration activities developed by Microbiome Green Revolution team members.
+{% endcapture %}
+
+{% assign image_url = '/assets/images/banners/wheat_field.png' | prepend: site.baseurl %}
+{% include heroes/captioned_hero.html
+  title='Training'
+  caption=caption
+  image=image_url
+  class='hero background-image'
+%}
+
+<div class='center-column'>
+  <div class='two-column-container one-third-width top-text'>
+    <div class='right-column' role='main'>
+      <h1>Training</h1>
+      <p>Training resources and collaborative workshops developed through the Microbiome Green Revolution project.</p>
+
+      <ul>
+        <li>
+          <a href="https://arua-microbiome.github.io/" target="_blank">ARUA Workshop 2025</a> — A five-day workshop to unite ARUA scientists for training and collaboration in microbiome research, developed by MGR team members.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
